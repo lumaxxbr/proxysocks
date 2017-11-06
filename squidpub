@@ -1,11 +1,11 @@
 #/bin/bash
 rm ip.ip 2> /dev/null
 clear
-echo "Lindofull" > squidban
+echo "LuMAXX" > squidban
 squidfail=$(cat squidban)
-echo "LUMAXX" > squidcre
+echo "HTTPBLACK" > squidcre
 squidcre=$(cat squidcre)
-if grep -i Lindofull squidban 1>/dev/null 2>/dev/null ; then
+if grep -i LuMAXX squidban 1>/dev/null 2>/dev/null ; then
 echo -e "\033[1;33m- - - - -> \033[01;34mSCRIPT BY @"$squidfail"\033[01;33m CANAL: @"$squidcre"\033[0m"
 else ###########
 echo "falhou"
